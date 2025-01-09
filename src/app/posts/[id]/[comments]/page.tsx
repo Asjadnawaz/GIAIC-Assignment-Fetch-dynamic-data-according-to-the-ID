@@ -10,8 +10,8 @@ interface Comment {
     body: string
   }
 
-    const {id} = params;
-    const {comments} = params;
+    const {id} = await params;
+    const {comments} = await params;
     const url = await fetch (`https://jsonplaceholder.typicode.com/posts/${id}/${comments}`);
     const data = await url.json();
     console.log(data);
