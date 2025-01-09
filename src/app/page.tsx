@@ -10,7 +10,7 @@ export default async function Home() {
 	return (
 
 		<main>
-			<h1 className="bg-slate-800 text-white text-center font-semibold p-1">Assignment 14 - Fetch dynamic data according to the ID</h1>
+			<h1 className="bg-slate-800 text-white text-center font-semibold p-1">Class 14 Assignment - Fetch dynamic data according to the ID</h1>
 			<br />
 		<div className="grid grid-cols-12 gap-4">
 			<div className="col-span-5 justify-around mx-5">
